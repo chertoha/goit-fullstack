@@ -1,0 +1,14 @@
+.link {
+    color: inherit;
+    text-decoration: none;
+    transition: color $default-transition-duration $default-transition-timing-function,
+        background-color $default-transition-duration $default-transition-timing-function,
+        border-color $default-transition-duration $default-transition-timing-function,
+        box-shadow $default-transition-duration $default-transition-timing-function;
+
+    &:hover,
+    &:focus,
+    &.current {
+        color: map-get($color, 'accent');
+    }
+}

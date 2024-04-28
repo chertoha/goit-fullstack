@@ -1,0 +1,12 @@
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+
+    &__title {
+        color: map-get($color, 'primary-header');
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.17;
+        text-align: center;
+    }
+}

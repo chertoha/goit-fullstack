@@ -1,0 +1,18 @@
+.page-header {
+
+    border-bottom: 1px solid #ececec;
+
+    position: relative;
+
+    @media screen and (max-width: ($tablet - 1)) {
+        padding-top: $mobile-header-padding-top;
+        padding-bottom: 16px;
+    }
+}
+
+
+.page-header__container {
+    // position: relative;
+    display: flex;
+    align-items: center;
+}

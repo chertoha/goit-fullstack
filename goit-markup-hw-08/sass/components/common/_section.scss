@@ -1,0 +1,28 @@
+.section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+
+
+    @media screen and (min-width: $desktop) {
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
+}
+
+.section__title {
+    margin-bottom: 30px;
+
+    color: map-get($color, 'primary-header');
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.17;
+    text-align: center;
+
+
+    @media screen and (min-width: $desktop) {
+        font-size: 36px;
+        margin-bottom: 50px;
+    }
+
+}

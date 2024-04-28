@@ -1,0 +1,67 @@
+.address-list {
+    display: flex;
+    margin-left: auto;
+
+    font-weight: 500;
+    letter-spacing: 0.02em;
+
+    @media screen and (max-width: ($desktop - 1)) {
+        flex-direction: column;
+    }
+
+    @media screen and (max-width: ($tablet - 1)) {
+        margin-left: 0;
+        margin-top: auto;
+        margin-bottom: 64px;
+        flex-direction: column-reverse;
+    }
+
+}
+
+
+@media screen and (max-width: ($tablet - 1)) {
+    .address-list__icon {
+        display: none;
+    }
+
+    .address-list__tel {
+
+        font-size: 34px;
+        line-height: 1.176;
+        color: map-get($color , 'accent');
+    }
+
+    .address-list__email {
+        font-size: 24px;
+        line-height: 1.167;
+
+        color: map-get($color , 'primary-text');
+    }
+
+    .address-list__item {
+        margin-bottom: 32px;
+
+        &:first-child {
+            margin-bottom: 0;
+        }
+    }
+}
+
+.address-list__icon {
+    margin-right: 8px;
+
+    @media screen and (min-width: $desktop) {
+        margin-right: 10px;
+    }
+}
+
+.address-list__link {
+    @media screen and (min-width: $tablet) {
+        display: inline-flex;
+        align-items: center;
+    }
+
+    @media screen and (min-width: $desktop) {
+        margin-right: 30px;
+    }
+}

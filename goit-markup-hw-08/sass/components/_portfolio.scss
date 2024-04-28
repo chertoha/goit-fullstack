@@ -1,0 +1,39 @@
+.portfolio__filter {
+    row-gap: 15px;
+
+    margin-bottom: 40px;
+
+
+    @media screen and (min-width: $tablet) {
+        margin-bottom: 30px;
+        justify-content: center;
+    }
+
+    @media screen and (min-width: $desktop) {
+        margin-bottom: 50px;
+    }
+
+
+
+}
+
+.portfolio__card-set {
+    margin-top: -30px;
+    margin-left: -30px;
+    flex-wrap: wrap;
+}
+
+.portfolio__item {
+    margin-top: 30px;
+    margin-left: 30px;
+
+    flex-basis: 100%;
+
+    @media screen and (min-width: $tablet) {
+        flex-basis: calc((100% - 2 * 30px) / 2);
+    }
+
+    @media screen and (min-width: $desktop) {
+        flex-basis: calc((100% - 3 * 30px) / 3);
+    }
+}

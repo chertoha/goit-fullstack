@@ -1,0 +1,126 @@
+.page-footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #2f303a;
+}
+
+.page-footer__container {
+    @media screen and (min-width: $desktop) {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+
+.join-us {
+
+    @media screen and (min-width: $tablet) {
+        padding-top: 10px;
+    }
+
+    @media screen and (max-width: ($desktop - 1)) {
+        text-align: center;
+    }
+
+    @media screen and (min-width: $desktop) {
+        margin-left: 70px;
+    }
+}
+
+.join-us__title {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: map-get($color, 'secondary-light');
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.17;
+}
+
+.page-footer__company-data {
+
+    @media screen and (min-width: $tablet) {
+        display: flex;
+
+    }
+
+    @media screen and (min-width: $tablet) and (max-width: ($desktop - 1)) {
+
+        justify-content: space-around;
+    }
+
+    @media screen and (max-width: ($desktop - 1)) {
+        margin-bottom: 60px;
+    }
+}
+
+
+
+.page-footer__address-outer {
+
+    @media screen and (max-width: ($tablet - 1)) {
+        margin-bottom: 60px;
+    }
+
+    @media screen and (max-width: ($desktop - 1)) {
+        text-align: center;
+    }
+
+}
+
+.page-footer__address {
+    margin-top: 20px;
+}
+
+
+
+.page-footer__subscribe-form {
+    @media screen and (max-width: ($desktop - 1)) {
+        text-align: center;
+    }
+
+    @media screen and (min-width: $desktop) {
+        padding-top: 10px;
+    }
+}
+
+.page-footer__subdcribe-label {
+    margin-bottom: 20px;
+}
+
+.page-footer__from-wrapper {
+
+    @media screen and (min-width: $desktop) {
+        display: flex;
+    }
+}
+
+.page-footer__form-input {
+
+
+    @media screen and (max-width: $desktop) {
+        margin-bottom: 20px;
+    }
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    height: 50px;
+
+    @media screen and (min-width: $tablet) {
+        width: 450px;
+    }
+
+    @media screen and (min-width: $desktop) {
+        width: 358px;
+        margin-right: 12px;
+    }
+}
+
+.page-footer__form-submit {
+
+
+    @media screen and (max-width: ($desktop - 1)) {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

@@ -1,0 +1,13 @@
+$color: (
+    'primary-header': #212121,
+    'primary-text': #757575,
+    'accent': #2196f3,
+    'secondary-light': #ffffff,
+    'secondary-dark': #000000,
+    'hover-button': #188ce8,
+    'default-icon': #afb1b8
+);
+
+$default-transition-duration: 250ms;
+$default-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+$modal-transition-duration: 500ms;

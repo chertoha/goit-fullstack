@@ -1,0 +1,45 @@
+.user-agreement {
+    margin-top: 20px;
+
+    @extend %flex-center;
+}
+
+.user-agreement__label {
+    padding-left: 23px;
+    position: relative;
+
+    line-height: 1.71;
+
+    display: inline-flex;
+    justify-content: center;
+}
+
+.user-agreement__icon {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+
+    border: 1.5px solid map-get($color, 'primary-header');
+    fill: none;
+    border-radius: 2px;
+
+    transition: background-color $default-transition-duration $default-transition-timing-function,
+        border $default-transition-duration $default-transition-timing-function;
+
+    .user-agreement__checkbox:checked~& {
+        border: map-get($color, 'accent');
+        background-color: map-get($color, 'accent');
+        fill: map-get($color, 'secondary-light');
+    }
+}
+
+
+.user-agreement__conditions {
+    line-height: 1.71;
+    color: map-get($color, 'accent');
+
+    &:visited {
+        color: map-get($color, 'accent');
+    }
+}

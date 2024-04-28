@@ -1,0 +1,36 @@
+.socials {
+    margin-top: 16px;
+
+    @extend %flex-center;
+}
+
+
+.socials__item {
+    // margin-right: 10px;
+
+    // &:last-child {
+    //     margin-right: 0;
+    // }
+
+    @include set-margin-to-items(right, 10px);
+}
+
+
+.socials__link {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    color: map-get($color, 'default-icon');
+
+    @extend %flex-center;
+
+    &:hover {
+        background-color: map-get($color, 'accent');
+        color: map-get($color, 'secondary-light');
+    }
+
+    &--dark-theme {
+        color: map-get($color, 'secondary-light');
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+}

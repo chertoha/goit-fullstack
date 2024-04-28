@@ -1,0 +1,28 @@
+.page-footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #2f303a;
+}
+
+.page-footer__container {
+    display: flex;
+}
+
+
+.join-us {
+    margin-left: 70px;
+}
+
+.join-us__title {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: map-get($color, 'secondary-light');
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.17;
+}
+
+
+.page-footer__subscribe-form {
+    margin-left: 93px;
+}

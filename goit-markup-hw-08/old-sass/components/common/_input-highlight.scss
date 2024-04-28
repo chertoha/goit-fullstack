@@ -1,0 +1,13 @@
+.input-highlight {
+    transition: border-color $default-transition-duration $default-transition-timing-function;
+
+    &:focus,
+    &:focus-visible {
+        border-color: map-get($color, 'accent');
+        outline: map-get($color, 'accent');
+    }
+
+    &:focus+.icon {
+        fill: map-get($color, 'accent');
+    }
+}

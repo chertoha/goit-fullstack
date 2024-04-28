@@ -1,0 +1,22 @@
+.container {
+  min-width: 320px;
+  // max-width: 480px;
+  margin: 0 auto;
+  padding-right: $container-side-padding;
+  padding-left: $container-side-padding;
+  // outline: 3px solid green;
+
+  // background-color: teal;
+
+  @media screen and (min-width: $mobile) {
+    width: $mobile;
+  }
+
+  @media screen and (min-width: $tablet) {
+    width: $tablet;
+  }
+
+  @media screen and (min-width: $desktop) {
+    width: $desktop;
+  }
+}

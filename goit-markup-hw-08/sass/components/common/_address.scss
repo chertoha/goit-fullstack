@@ -1,0 +1,26 @@
+.address {
+
+    font-style: inherit;
+}
+
+.address__item {
+    @include set-margin-to-items(bottom, 8px);
+
+    @media screen and (min-width: $desktop) {
+        @include set-margin-to-items(bottom, 9px);
+    }
+
+}
+
+.address__value,
+.address__link {
+    line-height: 1.71;
+}
+
+.address__value {
+    color: map-get($color, 'secondary-light');
+}
+
+.address__link {
+    color: rgba(255, 255, 255, 0.6);
+}
