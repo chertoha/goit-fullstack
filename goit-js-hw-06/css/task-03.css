@@ -1,0 +1,27 @@
+.gallery {
+  padding: 0;
+  margin: 0;
+
+  margin-left: auto;
+  margin-right: auto;
+  width: 786px;
+  list-style: none;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.gallery__item {
+  width: 500px;
+  height: 300px;
+}
+
+.gallery__item:nth-child(2n) {
+  align-self: flex-end;
+}
+
+.gallery__image {
+  display: block;
+  height: 100%;
+  width: 100%;
+}

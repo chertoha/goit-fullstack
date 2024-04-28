@@ -1,0 +1,11 @@
+{{#each this}}
+      <li class="country-list__item">
+        <img
+          src="{{flags.svg}}"
+          alt="{{name.official}} flag"
+          width="30"
+          height="30"
+        />
+        <a class="country-list__link" href="" data-id="{{@index}}">{{name.official}}</a>
+      </li>
+   {{/each}}
