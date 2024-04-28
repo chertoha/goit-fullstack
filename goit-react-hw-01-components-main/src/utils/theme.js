@@ -1,0 +1,38 @@
+export const theme = {
+  colors: {
+    text: '#000',
+    secondaryText: 'grey',
+    inverseText: '#fff',
+    bgd: '#fff',
+    secondaryBgd: '#f2f2f2;',
+    success: '#68e36f',
+    failure: '#f55742',
+    accent: '#42c5f5',
+  },
+
+  borders: {},
+
+  fontSizes: {
+    xs: '12px',
+    sm: '14px',
+    md: '16px',
+    lg: '20px',
+    xl: '24px',
+  },
+
+  fontWeights: {
+    normal: 400,
+    bolder: 500,
+    bold: 700,
+  },
+
+  radii: {
+    borderRadius: '5px',
+  },
+
+  shadows: {
+    default: 'rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px',
+  },
+
+  space: ['0', '2px', '4px', '8px', '16px', '32px', '64px', '128px', '256px'],
+};
